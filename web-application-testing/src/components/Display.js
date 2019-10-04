@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Display = ({ strikes, balls, fouls }) => {
+const Display = ({ strikes, balls, fouls }) => {
     return (
         <section className = 'scoreboard'>
             <div className = "topRow">
@@ -40,3 +40,5 @@ export const Display = ({ strikes, balls, fouls }) => {
     </section>
     );
 };
+
+export default Display;
